@@ -1,0 +1,139 @@
+@media (max-width: 975px) {
+    .header__menu-btn {
+        display: block;
+    }
+
+    .header__menu ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 77px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fcfcfc;
+        border-bottom: 5px solid #f3af9d;
+        border-top: 5px solid #f3af9d;
+    }
+
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu li+li {
+        margin-left: 0;
+        border-top: 1px solid #b9b9b9;
+    }
+
+    .blog__inner {
+        flex-wrap: wrap;
+    }
+
+    .slider__mini {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .blog__inner {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .blog__inner__item {
+        max-width: 500px;
+        padding-bottom: 20px;
+        border-bottom: 0px solid #f3af9d;
+        border-top: 16px solid #f3af9d;
+    }
+
+    .portfolio__inner {
+        display: block;
+        padding-bottom: 25px;
+        padding-left: 60px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 740px) {
+    .portfolio__inner {
+        display: block;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inner__item-about {
+        max-width: 600px;
+    }
+
+    .footer__inner {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 620px) {
+
+    .slick-arrow {
+        display: none;
+    }
+
+    .slider__item__textbox {
+        left: 0;
+        bottom: 0;
+    }
+
+    .textbox__title {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .textbox__text {
+        font-size: 10px;
+        line-height: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .portfolio__inner {
+        display: block;
+        padding-bottom: 25px;
+        padding-left: 100px;
+        padding-right: 10px;
+
+    }
+
+
+
+}
+
+@media (max-width: 400px) {
+    .slider__item__textbox {
+        display: none;
+    }
+
+    .portfolio__inner {
+        display: block;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+@media (min-width: 975px) {
+    .header__menu>ul {
+        display: block !important;
+    }
+
+    .slick-arrow {
+        display: block !important;
+    }
+
+}
